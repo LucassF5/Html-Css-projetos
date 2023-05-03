@@ -1,0 +1,75 @@
+<meta charset = "UTF-8"> <!--Indicando a linguagem-->
+
+<h1></h1> <!--Título-->
+
+<br> #Break line, quebra de texto // <!--Tag sem marcação, pode colocar só uma tag-->
+
+<a href = "primeiro_teste.html">Link</a> <!--Âncora, pra colocar links-->
+
+<p></p> #Parágrafo
+
+<input/> <!--Abre uma tela para o usuário colocar algum dado -->
+
+<button>Inclui um botão</button>  <!-- Adiciona um botão, o nome no meio da tag nomeia o botão -->
+
+<script>
+
+    function pulaLinha() {     //abrindo função pra colocar instruções, não esquecer dos {} para indicar bloco de código
+
+        document.write("<br><br>");
+
+    }
+
+    array = [] //Array, vetores
+    array.push() // Vai colocar algo no array
+    array.lenght // Dá o número de elementos do array
+
+    var nome = prompt("Input do usuário") // Serve pra receber algum dado fornecido pelo usuário, sempre retorna uma str
+
+    var alguma_coisa = "Recebe algum valor"; // declarando a variável pela primeira vez acaba recebendo var no início
+    alguma_coisa = "Se repetir a variável não precisa colocar var no início"
+
+    var mudança = parseInt(prompt("Muda o tipo de str pra inteiro")); // A função parseINt transforma de str pra int 
+
+    var puloLinha = "<br>"; // variáveis podem receber funções
+
+    alert("Coisas escritas");<!--Faz um popup por causa do alert // aqui já entra JavaScript -->
+
+    document.write(); //Serve pra exibir coisas, sem precisar do popup com tipo str e números
+
+    var input = document.querySelector("input"); // pega a informação de input e joga na variável, entre () vai o nome do quer usar
+    input.value; // É o valor da informação guardada
+    input.focus(); // Dá ênfase na caixa de entrada
+
+    button.onclick = verifica; // Guarda uma informação para acontecer no clicar do botão
+
+    console.log(); //Mostra no console do navegador
+
+</script> 
+
+<canvas width= "600" // Largura    height="400" // Altura></canvas>
+
+// script para o canvas agr
+<script>
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d'); // indicando que quero fazer desenhos 2d na tela, indicar a dimensão
+
+    pincel.fillStyle = "red"; //cor de preenchimento da área
+    pincel.fillRect(0, 0,                 600, 400);  //fillRect = preencher retângulo, área a ser preenchida e coordenadas
+                 //X0 Y0                   Xf  Yf
+                //ponto início      //ponto final
+
+
+    pincel.beginPath(); // início de caminho para fazer um desenho
+    pincel.moveTo(); // Coordenadas para mover, linha por linha
+    pincel.fill(); // preencher espaço
+    pincel.fillStroke = 'cor'; // cor da borda
+    pincel.strokeRect(); // tamanho da borda
+
+    pincel.fillStyle = 'blue';
+    pincel.beginPath();
+    pincel.arc(300, 200,  50,   0, 2 * 3.14); // (1 e 2)-coordenadas, (3)-raio, (4,5) - ponto inicial e ponto final em radianos
+    pincel.fill();
+
+    setInterval(funçãoEscolhida, tempo) //Função pra dar delay
+</script>
