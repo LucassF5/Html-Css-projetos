@@ -1,0 +1,37 @@
+body{
+    background-color:darkgray;
+    /* color: red; Isso vai alterar apenas a cor das letras */
+}
+
+header{
+    text-align: center;
+    color: rgba(31, 28, 193, 0.829);
+    background-color: azure;
+    font-family: /*monospace*/ /*sans-serif;*/ serif, "Arial", "Helvetica";
+    /* monospace = letras monoespaçadas, todos os tipos têm a mesma largura
+    serif: letras com serifa(ornamentos)
+    sans-serif= letras sem serifa(ornamentos) */
+    
+}
+
+.p-header{
+    background-color: violet;
+}
+
+p{
+    text-align: center;
+    /* HÁ 4 TIPOS DE text-align
+    1 - right: alinhado para a direita
+    2 - left: alinhado para a esquerda
+    3 - justify: justificando o espaçamento das palavras conforme o tamanho da tela - centralizado à esquerdo
+    4 - center: se ajusta com a tela deixando tudo sempre centralizado*/
+}
+
+section{
+    padding: 5px;
+    background-color: red;
+}
+
+aside{
+    background-color: darkslategray;
+}
