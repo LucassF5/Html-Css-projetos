@@ -1,11 +1,28 @@
-body{
-    background-color: blueviolet;
+header{
+    background: linear-gradient(rgb(0, 140, 255), white);
+    padding: 2em;
+    width: auto;
+}
+
+.hcolor{
+    text-align: center;
+    color: orange;
 }
 
 fieldset{
-    background-color: rgb(29, 13, 53);
+    background: linear-gradient(blueviolet, rgb(29, 13, 53));
     border-radius: 5px;
     padding: 15px;
+    margin: auto;
+    /* position: absolute; */
+}
+
+#fieldcolor{
+    color: black;
+}
+
+.divfield{
+    display: inline-block;
 }
 
 legend{
@@ -21,4 +38,8 @@ label{
 input{
     padding: 5px;
     
+}
+
+body{
+    background-color: white;
 }
