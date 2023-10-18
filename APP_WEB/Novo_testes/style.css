@@ -1,4 +1,4 @@
-header{
+/* header{
     background: linear-gradient(rgb(0, 140, 255), white);
     padding: 2em;
     width: auto;
@@ -14,7 +14,7 @@ fieldset{
     border-radius: 5px;
     padding: 15px;
     margin: auto;
-    /* position: absolute; */
+    position: absolute;
 }
 
 #fieldcolor{
@@ -42,4 +42,4 @@ input{
 
 body{
     background-color: white;
-}
+} */
