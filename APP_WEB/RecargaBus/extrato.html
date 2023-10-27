@@ -7,15 +7,25 @@
     <link rel="stylesheet" href=".\assets\css\extrato.css">
 <body>
     <header>
-        <h1>RecargaBus</h1>
-        <!-- <nav>
-            <ul id="list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="recarga.html">Recarga</a></li>
-                <li><a href="extrato.html">Extrato</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-            </ul>
-        </nav> -->
+        <div>
+            <h1>RecargaBus</h1>
+            <nav>
+                <div id="header-links">
+                    <div class="links-form">
+                        <a href=".\index.html">Home</a>
+                    </div>
+                    <div class="links-form">
+                        <a href=".\recarga.html">Recarga</a>
+                    </div>
+                    <div class="links-form">
+                        <a href=".\extrato.html">Extrato</a>
+                    </div>
+                    <div class="links-form">
+                        <a href=".\sobre.html">Sobre</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
     <nav>
         <img src=".\assets\imgs\ExtratoFoto.jpeg" alt="">
@@ -23,7 +33,7 @@
             <legend>Extrato</legend>
             <div>
                 <p>Data <input type="date"></p>
-                <p>Tipo de pagamento</p>
+                <p class="pagamento">Tipo de pagamento</p>
                     <input type="radio" name="Tipo de pagamento" class="radio">Dinheiro<br>
                     <input type="radio" name="Tipo de pagamento" class="radio">Cartão<br>
                     <input type="radio" name="Tipo de pagamento" class="radio">PIX

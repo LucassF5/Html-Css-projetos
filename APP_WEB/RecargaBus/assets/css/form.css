@@ -1,0 +1,36 @@
+@import url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbE01eGp4VW1rbXpkd0lqMlVYYlhFdWl1Y1M1UXxBQ3Jtc0tsdm9Ba0g0bGxMXzd2MTF3TVBZUWVITmNxUkxJZUVYaTd2MUlKamVqaG0wdTgxaGhXVk5ESTI2bTA5X3pVNm8wLTdyZ3R5UWMtZ20yT2FSTVFVM3BxTjZXaDlvRkY4cUdFd0xESEdqSG1CM29pcUpTVQ&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40100%3B200%3B300%3B400%26display%3Dswap%27%29%3B&v=qKWApkuhNu8);
+
+:root {
+    --color-light-50: #f8fafc;
+
+    --color-dark-50: #797984;
+    --color-dark-100: #312d37;
+    --color-dark-900: #000;
+
+    --color-purple-50: #7c3aed;
+    --color-purple-100: #a855f7;
+    --color-purple-200: #bf46ef;
+
+    --color-gradient: linear-gradient(90deg, var(--color-purple-50), var(--color-purple-100), var(--color-purple-200))
+
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    background: var(--color-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social_media img{
+    width: 35px;
+}
