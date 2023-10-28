@@ -31,6 +31,53 @@
     align-items: center;
 }
 
+#login_form{
+    background-color: var(--color-light-50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 40px;
+    border-radius: 8px;
+    gap: 30px; 
+    /* Faz ter o mesmo espaçamento entre os ícones
+    Auxilia por evitar precisar usar margin-bottom*/
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.336);
+    height: fit-content;
+}
+
+#form_header{
+    display: flex;
+    align-items: center; /* Centraliza verticalmente para que a Lua fique no meio*/
+    justify-content: space-between; 
+    /* Faz com que a Lua e o Login se distanciem*/
+
+}
+
+#form_header h1{
+    font-size: 40px;
+    position: relative;
+}
+
+#form_header h1::before{
+    position: absolute;
+    content: "";
+    width: 43%;
+    background-color: var(--color-purple-50);
+    height: 3px;
+    bottom: 4px;
+    border-radius: 5px;
+}
+
+#mode_icon{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#social_media{
+    display: flex;
+    justify-content: space-around;
+}
+
 #social_media img{
     width: 35px;
 }
