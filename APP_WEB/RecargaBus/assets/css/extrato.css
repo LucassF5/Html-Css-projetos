@@ -57,6 +57,15 @@ header{
     padding: 10px;
 }
 
+#nav-image{
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+}
+
 .links-form{
     padding: 0 3px;
 }
@@ -84,10 +93,19 @@ img{
     /* align-items: center; */
     margin: 10px;
 }
+
+#radio-inputs{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+/* 
 .radio{
     display:flex;
     margin: 5px;
-}
+} */
 footer{
     display: flex;
     flex-direction: row;

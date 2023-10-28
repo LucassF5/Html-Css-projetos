@@ -28,15 +28,17 @@
         </div>
     </header>
     <nav>
-        <img src=".\assets\imgs\ExtratoFoto.jpeg" alt="">
+        <img id="nav-image" src=".\assets\imgs\ExtratoFoto.jpeg" alt="">
         <form>
             <legend>Extrato</legend>
             <div>
                 <p>Data <input type="date"></p>
                 <p class="pagamento">Tipo de pagamento</p>
+                <div id="radio-inputs">
                     <input type="radio" name="Tipo de pagamento" class="radio">Dinheiro<br>
                     <input type="radio" name="Tipo de pagamento" class="radio">Cartão<br>
                     <input type="radio" name="Tipo de pagamento" class="radio">PIX
+                </div>
                 <p>Valor <input type="number"></p>
                 <input type="submit">
             </div>
