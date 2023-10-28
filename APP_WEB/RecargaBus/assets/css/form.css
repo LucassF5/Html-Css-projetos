@@ -1,4 +1,4 @@
-@import url(https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbE01eGp4VW1rbXpkd0lqMlVYYlhFdWl1Y1M1UXxBQ3Jtc0tsdm9Ba0g0bGxMXzd2MTF3TVBZUWVITmNxUkxJZUVYaTd2MUlKamVqaG0wdTgxaGhXVk5ESTI2bTA5X3pVNm8wLTdyZ3R5UWMtZ20yT2FSTVFVM3BxTjZXaDlvRkY4cUdFd0xESEdqSG1CM29pcUpTVQ&q=https%3A%2F%2Ffonts.googleapis.com%2Fcss2%3Ffamily%3DPoppins%3Awght%40100%3B200%3B300%3B400%26display%3Dswap%27%29%3B&v=qKWApkuhNu8);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
 :root {
     --color-light-50: #f8fafc;
@@ -61,10 +61,10 @@
 #form_header h1::before{
     position: absolute;
     content: "";
-    width: 43%;
+    width: 40%;
     background-color: var(--color-purple-50);
     height: 3px;
-    bottom: 4px;
+    bottom: 10px;
     border-radius: 5px;
 }
 
@@ -80,4 +80,76 @@
 
 #social_media img{
     width: 35px;
+}
+
+#social_media img:hover{
+    transform: scale(1.2) 
+    /* Vai ampliar a imagem permitindo maior visualização
+     quando estiver em cima do elemento*/
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input-box label{
+    font-size: 14px;
+    color: var(--color-dark-50);
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid var(--color-purple-50);
+}
+
+.input-field i{
+    font-size: 18px;
+    color: var(--color-dark-900);
+}
+
+.input-field input {
+    border: none;
+    width: 260px;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus{ 
+    outline: none;
+    /*Tirando a borda do input quando clicado*/
+}
+
+#forgot_password a{
+    text-decoration: none;
+    /*Tirando o sublinhado do link*/
+    font-size: 12px;
+    color: var(--color-dark-50);
+}
+
+#forgot_password a:hover{
+    color: var(--color-purple-50)
+}
+
+#login_button{
+    border: none;
+    background: var(--color-gradient);
+    color: var(--color-light-50);
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login_button:hover{
+    transform: scale(1.05);
 }
