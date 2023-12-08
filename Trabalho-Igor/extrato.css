@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+    border-radius: 500px; /* Adicionando bordas arredondadas */
+    padding: 20px; /* Opcional: adicione um preenchimento interno */
+}
+.cabecalho__imagem{
+     background-color:  #d5f7e6;
+      width: 13%;
+    height: auto;
+    margin: 5px;
+    border: 3px solid #fff; /* Adiciona uma borda sólida de 3px e cor branca */
+    border-radius: 50%; 
+} */
+
+
+
+
+
+.conteudo{
+    display: flex;
+    align-items: center;
+
+}
+
+.conteudo__imagem{
+    width: 35%;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+  button {
+    font-family: 'Londrina Solid', sans-serif;
+    color: black;
+    background-color: #d5f7e6;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #5ae4a8;
+  }
+
+  .rodape{
+    
+    display: flex;
+    font-family: 'Londrina Solid', sans-serif;
+    justify-content: center;
+    background-color: #87a395;
+    font-size: 17px;
+    border-top: 2px solid #f5fcf8;; /* Adiciona uma borda superior de 2px e cor preta */
+    padding: 10px 0; /  }
+
+
+  .modal{
+    position: fixed;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    transform: scale(1.1);
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.25s ease-in-out, transform 0.25 ease-in-out, opacity 0.25 ease-in-out;  
+}
+
+.imagemqr{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-content{
+    background-color: white;
+    padding: 16px 24px;
+    width: 350px;
+    border-radius: 0.5rem;
+    justify-content: center;
+    box-shadow: 0 0 10px #d5f7e6;
+}
+
+.botao-modal{
+    float: right;
+    width: 24px;
+    cursor: pointer;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 24px;
+}
+.botao-modal:hover{
+    background-color: #5ae4a8;
+
+}
+
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+}
+
+.pagamento-pix{
+    padding: 10px;
+    margin: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-pix-botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5f7e6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 300px;
+    height: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+    border: 4px solid #666565; /* Define uma borda de 2 pixels com cor preta */
+  }
+  h1 {
+   color: #0d0d0d;
+   font-size: 45px;
+   font-weight: bold;
+   text-align: center;
+   padding: 10px 0;
+    
+  }
+  .fotopix {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.piximagem{
+
+    width: 400px; /* ajuste o tamanho conforme necessário */
+    height: 400px;
+    margin-right: 40px; 
+    margin-top: -600px;
+
+
+}
+    
+  
+  
+  
+  .saldo {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+  }
+  
+  .saldos-anteriores {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .saldos-anteriores div {
+    flex: 0 0 30%;
+    padding: 5px;
+    margin: 2px;
+    background-color: #e9e9e9;
+    border-radius: 5px;
+  }
+  
+  
+    .btn-voltar {
+        display: block;
+        width: 120px;
+        margin: 25px auto 0;
+        padding: 10px;
+        text-align: center;
+        background-color: #a0cab6;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      
+     
+  
+  .btn-voltar:hover {
+    background-color: #5ae4a8;
+  }
+  .data {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  .horario {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .tipo-pagamento {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }

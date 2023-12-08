@@ -49,7 +49,7 @@
 #form_header{
     display: flex;
     align-items: center; /* Centraliza verticalmente para que a Lua fique no meio*/
-    justify-content: space-between; 
+    justify-content: center; 
     /* Faz com que a Lua e o Login se distanciem*/
 
 }
@@ -57,9 +57,12 @@
 #form_header h1{
     font-size: 40px;
     position: relative;
+    /* justify-content: center;
+    align-items: center; */
+
 }
 
-#form_header h1::before{
+/* #form_header h1::before{
     position: absolute;
     content: "";
     width: 40%;
@@ -67,7 +70,7 @@
     height: 3px;
     bottom: 10px;
     border-radius: 5px;
-}
+} */
 
 #mode_icon{
     cursor: pointer;
@@ -161,7 +164,7 @@
     animation: light-to-dark 0.3s ease-in-out;
 }
 
-.dark#login_form .input-field input,
+/* .dark#login_form .input-field input,
 .dark#login_form .input-field i{
     color: var(--color-light-50);
 }
@@ -184,4 +187,4 @@
     100%{
         background-color: var(--color-dark-100);
     }
-}
+} */
